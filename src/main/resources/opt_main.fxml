@@ -40,7 +40,11 @@
                      <accelerator>
                         <KeyCodeCombination alt="UP" code="S" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
                      </accelerator></MenuItem>
-            <MenuItem id="menuFileSaveAs" fx:id="menuFileSaveAs" disable="true" mnemonicParsing="false" onAction="#onClickMenuFileSaveAs" text="Save As…" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem id="menuFileSaveAs" fx:id="menuFileSaveAs" disable="true" mnemonicParsing="false" onAction="#onClickMenuFileSaveAs" text="Save As…">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="A" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator></MenuItem>
             <SeparatorMenuItem mnemonicParsing="false" />
             <MenuItem id="menuFilePreferences" fx:id="menuFilePreferences" mnemonicParsing="false" onAction="#onClickMenuFilePreferences" text="Preferences…">
                      <accelerator>
